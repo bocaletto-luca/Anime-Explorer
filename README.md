@@ -12,7 +12,7 @@
 
 ## Description
 
-Anime Explorer is a one-page web application that leverages the free [Jikan API](https://jikan.moe) to help users explore anime data in a rich, interactive format. The app displays results as uniformly sized cards (4 per row, 20 per page) that include key details such as title, score, episode count, and a short synopsis. When you click **Leggi di più**, a fullscreen modal opens with the anime’s full details—including an image, genres, and a synopsis—and a clear **Chiudi** (Close) button for returning to the list.
+Anime Explorer is a one-page web application that leverages the free [Jikan API](https://jikan.moe) to help users explore anime data in a rich, interactive format. The app displays results as uniformly sized cards (4 per row, 20 per page) that include key details such as title, score, episode count, and a short synopsis. When you click **Read more...**, a fullscreen modal opens with the anime’s full details—including an image, genres, and a synopsis—and a clear **Close** (Close) button for returning to the list.
 
 This release also includes robust sorting (by score, title, episodes), search functionality, a dynamic chart of the top 10 anime by score (powered by Chart.js), and a theme toggle (Day/Night).
 
