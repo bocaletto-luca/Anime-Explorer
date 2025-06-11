@@ -1,0 +1,110 @@
+/* Basic Layout */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    .wrapper {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+    /* Themes */
+    body.day {
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    body.night {
+      background-color: #212529;
+      color: #f8f9fa;
+    }
+    /* Header & Footer */
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+    .container-main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 15px;
+    }
+    /* Controls */
+    .search-controls, .controls, .search-container {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .search-controls input[type="text"],
+    .search-container input[type="text"] {
+      width: 60%;
+      max-width: 500px;
+      padding: 8px;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .search-controls button,
+    .search-container button,
+    .controls button {
+      margin: 0 5px;
+    }
+    /* Anime Cards - Uniform, 4 per row */
+    .anime-card {
+      background-color: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.25rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      padding: 15px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .anime-card img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      object-fit: cover;
+      max-height: 200px;
+    }
+    .anime-card h4 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+    .anime-card p {
+      font-size: 0.9rem;
+    }
+    /* Night Mode */
+    body.night .anime-card {
+      background-color: #343a40;
+      border-color: #495057;
+      color: #f8f9fa;
+    }
+    body.night .modal-content {
+      background-color: #343a40;
+      color: #f8f9fa;
+    }
+    /* Chart Container */
+    #chartContainer {
+      margin-bottom: 20px;
+      height: 300px;
+      position: relative;
+    }
+    /* Pagination */
+    #paginationContainer {
+      margin-top: 20px;
+      text-align: center;
+    }
+    /* Fullscreen Detail Modal */
+    .modal-fullscreen {
+      /* La classe viene applicata da Bootstrap */
+    }
+    /* Footer */
+    footer {
+      font-size: 0.9rem;
