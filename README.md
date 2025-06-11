@@ -8,6 +8,8 @@
 [![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white)](https://www.chartjs.org)
 [![Jikan API](https://img.shields.io/badge/Jikan_API-0D0D0D?style=for-the-badge)](https://jikan.moe)
 
+[![Online Demo](https://img.shields.io/badge/Online-Demo-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://bocaletto-luca.github.io/Anime-Explorer/)
+
 ## Description
 
 Anime Explorer is a one-page web application that leverages the free [Jikan API](https://jikan.moe) to help users explore anime data in a rich, interactive format. The app displays results as uniformly sized cards (4 per row, 20 per page) that include key details such as title, score, episode count, and a short synopsis. When you click **Leggi di più**, a fullscreen modal opens with the anime’s full details—including an image, genres, and a synopsis—and a clear **Chiudi** (Close) button for returning to the list.
